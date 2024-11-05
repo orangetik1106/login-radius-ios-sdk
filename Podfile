@@ -3,7 +3,7 @@ use_frameworks!
 
 workspace 'LoginRadiusSDK'
 
-platform :ios, '11.0'
+platform :ios, '13.0'
 
 target 'ObjCDemo' do
     project 'Example/ObjCDemo/ObjCDemo.xcodeproj'

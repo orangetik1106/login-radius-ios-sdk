@@ -20,14 +20,18 @@ s.license      = 'MIT'
 s.authors             = { 'LoginRadius' => 'support@loginradius.com'}
 s.social_media_url   = 'https://twitter.com/LoginRadius'
 
-s.ios.deployment_target = '11.0'
+s.ios.deployment_target = '13.0'
 
 s.source       = { :git => 'https://github.com/LoginRadius/ios-sdk.git', :tag => "#{s.version}" }
 
 s.source_files = ['Sources/**/*.{h,m}']
 
-s.dependency 'FBSDKLoginKit', '~> 14.1.0'
+s.dependency 'FBSDKLoginKit', '~> 17.4.0'
 
-s.ios.frameworks = 'Foundation', 'UIKit', 'SystemConfiguration', 'Social', 'Accounts', 'SafariServices'
+s.ios.frameworks = 'Foundation', 'UIKit', 
+
+
+
+'SystemConfiguration', 'Social', 'Accounts', 'SafariServices'
 
 end
